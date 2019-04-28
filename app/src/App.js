@@ -12,15 +12,15 @@ class App extends Component {
       <Router>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-              <Link to="/games" className="nav-item nav-link">Games</Link>
-              <Link to="/characters" className="nav-item nav-link">Characters</Link>
-              <Link to="/monsters" className="nav-item nav-link">Monsters</Link>
-            </div>
+          <div id="navbar" className="navbar-collapse collapse" aria-expanded="true">
+            <ul className="nav navbar-nav">
+              <li><Link to="/games" className="nav-item nav-link">Games</Link></li>
+              <li><Link to="/characters" className="nav-item nav-link">Characters</Link></li>
+              <li><Link to="/monsters" className="nav-item nav-link">Monsters</Link></li>
+            </ul>
           </div>
         </nav>
         <Route exact path="/" component={Home} />

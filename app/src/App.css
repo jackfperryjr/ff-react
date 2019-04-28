@@ -4,7 +4,7 @@
 
 .App-logo {
   /* animation: App-logo-spin infinite 20s linear; */
-  height: 5vmin;
+  height: 40px;
   pointer-events: none;
   margin: 20px;
 }
@@ -27,8 +27,9 @@
   margin-top: 100px !important;
   height: 600px !important;
   max-height: 600px !important;
-  overflow: scroll;
-}
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */}
 
 @keyframes App-logo-spin {
   from {
