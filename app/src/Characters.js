@@ -26,6 +26,7 @@ class Characters extends Component {
                 <h2>Characters</h2>
                 <div className="container contained">
                     <table className="table table-striped">
+                        <thead className="font-weight-bolder display-4 text-left">Characters</thead>
                         <tr className="font-weight-bolder bg-dark text-white">
                             <td>Name</td>
                             <td>Age</td>

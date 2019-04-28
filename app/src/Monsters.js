@@ -26,6 +26,7 @@ class Monsters extends Component {
                 <h2>Monsters</h2>
                 <div class="container contained">
                     <table className="table table-condensed table-striped">
+                        <thead className="font-weight-bolder display-4 text-left">Monsters</thead>
                         <tr className="font-weight-bolder bg-dark text-white">
                             <td>Name</td>
                             <td>Strength</td>
