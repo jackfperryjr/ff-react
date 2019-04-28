@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import logo from './moogle-logo.png';
-import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Games from './Games';
 import Characters from './Characters';
 import Monsters from './Monsters';
+import logo from './moogle-logo.png';
+import './App.css';
 
 class App extends Component {
   render() {

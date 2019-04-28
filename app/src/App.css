@@ -18,9 +18,16 @@
   color: #61dafb;
 }
 
-.characters {
+.navbar {
+  position: fixed !important;
+  width: 100% !important;
+}
+
+.contained {
+  margin-top: 100px !important;
   height: 600px !important;
   max-height: 600px !important;
+  overflow: scroll;
 }
 
 @keyframes App-logo-spin {

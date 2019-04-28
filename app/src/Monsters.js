@@ -3,33 +3,46 @@ import './App.css';
 
 class Monsters extends Component {
     constructor(props) {
-      super(props);
-  
-      this.state = {
-        Monsters: [],
-        isLoading: false,
-      };
+        super(props);
+    
+        this.state = {
+            monsters: [],
+            isLoading: false,
+        };
     }
     componentDidMount() {
-      this.setState({ isLoading: true });
-  
-      fetch("https://www.moogleapi.com/api/v1/monsters")
-        .then(response => response.json())
-        .then(Monsters => {
-          this.setState({ Monsters: Monsters, isLoading: false });
-          //console.log(Monsters);
-        }
-      )
-      
+        this.setState({ isLoading: true });
+    
+        fetch("https://www.moogleapi.com/api/v1/monsters")
+            .then(response => response.json())
+            .then(monsters => {
+                this.setState({ monsters: monsters, isLoading: false });
+            }
+        )
     }
     render() {
-      return (
-        <div className="container text-center">
-          <h2>Monsters</h2>
-          {this.state.Monsters.map(m => <div className="text-left">{m.name}</div>)}
-        </div>
-      );
+        return (
+            <div className="container text-center">
+                <h2>Monsters</h2>
+                <div class="container contained">
+                    <table className="table table-condensed table-striped">
+                        <tr className="font-weight-bolder bg-dark text-white">
+                            <td>Name</td>
+                            <td>Strength</td>
+                            <td>Weakness</td>
+                        </tr>
+                        <tbody>
+                            {this.state.monsters.map(m => 
+                            <tr>
+                                <td>{m.name}</td><td>{m.strength}</td><td>{m.weakness}</td>
+                            </tr>
+                            )}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        );
     }
-  }
+}
 
-  export default Monsters;
+export default Monsters;
