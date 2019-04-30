@@ -22,11 +22,10 @@ class Characters extends Component {
     }
     render() {
         return (
-            <div className="container text-center">
-                <h2>Characters</h2>
+            <div className="container text-center buffered">
+                <span className="font-weight-bolder display-4">Characters</span>
                 <div className="container contained">
                     <table className="table table-striped">
-                        <thead className="font-weight-bolder display-4 text-left">Characters</thead>
                         <tr className="font-weight-bolder bg-dark text-white">
                             <td>Name</td>
                             <td>Age</td>

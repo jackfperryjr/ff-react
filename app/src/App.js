@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from './Home';
 import Games from './Games';
 import Characters from './Characters';
 import Monsters from './Monsters';
@@ -30,13 +31,6 @@ class App extends Component {
       </Router>
     );
   }
-}
-  
-function Home() {
-  return (
-    <div>
-    </div>
-  );
 }
 
 export default App;

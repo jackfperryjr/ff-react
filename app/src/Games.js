@@ -23,11 +23,10 @@ class Games extends Component {
     }
     render() {
         return (
-            <div className="container text-center">
-                <h2>Games</h2>
+            <div className="container text-center buffered">
+                <span className="font-weight-bolder display-4">Games</span>
                 <div className="container contained">
                     <table className="table table-condensed table-striped">
-                        <thead className="font-weight-bolder display-4 text-left">Games</thead>
                         <tr className="font-weight-bolder bg-dark text-white">
                             <td>Title</td>
                             <td>Platform</td>
