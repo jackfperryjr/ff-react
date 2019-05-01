@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ff-react/static/css/main.1fffb852.chunk.css",
+    "main.js": "/ff-react/static/js/main.d47221b8.chunk.js",
+    "main.js.map": "/ff-react/static/js/main.d47221b8.chunk.js.map",
+    "runtime~main.js": "/ff-react/static/js/runtime~main.b679b669.js",
+    "runtime~main.js.map": "/ff-react/static/js/runtime~main.b679b669.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/ff-react/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.71beebb5.chunk.js": "/ff-react/static/js/2.71beebb5.chunk.js",
+    "static/js/2.71beebb5.chunk.js.map": "/ff-react/static/js/2.71beebb5.chunk.js.map",
+    "index.html": "/ff-react/index.html",
+    "precache-manifest.991912a886bef13b3b662c61e4a3831c.js": "/ff-react/precache-manifest.991912a886bef13b3b662c61e4a3831c.js",
+    "service-worker.js": "/ff-react/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/ff-react/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.1fffb852.chunk.css.map": "/ff-react/static/css/main.1fffb852.chunk.css.map",
+    "static/media/moogle-logo.png": "/ff-react/static/media/moogle-logo.b747abc0.png"
+  }
+}
