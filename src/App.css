@@ -34,8 +34,8 @@
 }
 
 .buffered {
-  margin: 0 auto;
-  position: absolute;
+  margin: 0 auto !important;
+  position: relative;
   top: 100px;
 }
 
@@ -55,5 +55,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .random {
+    width: 90%;
   }
 }
