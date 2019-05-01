@@ -1,4 +1,4 @@
-# <img src="app/public/moogle-logo.png" width="20"> ff-react
+# <img src="src/moogle-logo.png" width="20"> ff-react
 
 This is my simple React.js app.
 I'm fetching data from <a href="https://www.moogleapi.com" target="blank">MoogleApi</a>.
