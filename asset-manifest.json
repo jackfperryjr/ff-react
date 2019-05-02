@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ff-react/static/css/main.d32e5ca2.chunk.css",
-    "main.js": "/ff-react/static/js/main.818a60f5.chunk.js",
-    "main.js.map": "/ff-react/static/js/main.818a60f5.chunk.js.map",
+    "main.css": "/ff-react/static/css/main.d272f44f.chunk.css",
+    "main.js": "/ff-react/static/js/main.c88447eb.chunk.js",
+    "main.js.map": "/ff-react/static/js/main.c88447eb.chunk.js.map",
     "runtime~main.js": "/ff-react/static/js/runtime~main.b679b669.js",
     "runtime~main.js.map": "/ff-react/static/js/runtime~main.b679b669.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/ff-react/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.71beebb5.chunk.js": "/ff-react/static/js/2.71beebb5.chunk.js",
-    "static/js/2.71beebb5.chunk.js.map": "/ff-react/static/js/2.71beebb5.chunk.js.map",
+    "static/js/2.0da4121f.chunk.js": "/ff-react/static/js/2.0da4121f.chunk.js",
+    "static/js/2.0da4121f.chunk.js.map": "/ff-react/static/js/2.0da4121f.chunk.js.map",
     "index.html": "/ff-react/index.html",
-    "precache-manifest.6a1c2ab2c38fef9739b207ceece5fd7a.js": "/ff-react/precache-manifest.6a1c2ab2c38fef9739b207ceece5fd7a.js",
+    "precache-manifest.8ed8b6700b48104813c057b90a3233ac.js": "/ff-react/precache-manifest.8ed8b6700b48104813c057b90a3233ac.js",
     "service-worker.js": "/ff-react/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/ff-react/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.d32e5ca2.chunk.css.map": "/ff-react/static/css/main.d32e5ca2.chunk.css.map",
-    "static/media/moogle-logo.png": "/ff-react/static/media/moogle-logo.b747abc0.png"
+    "static/css/main.d272f44f.chunk.css.map": "/ff-react/static/css/main.d272f44f.chunk.css.map",
+    "static/media/icon-moogle.png": "/ff-react/static/media/icon-moogle.b747abc0.png",
+    "static/media/icon-spinner.gif": "/ff-react/static/media/icon-spinner.822699a4.gif"
   }
 }
