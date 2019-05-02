@@ -45,6 +45,8 @@
 }
 
 .img {
+  margin: 0 auto;
+  display: block;
   height: 180px;
   width: auto;
 }

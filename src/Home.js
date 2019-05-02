@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import spinner from './icon-spinner.gif';
 
 class Home extends Component {
     constructor(props) {
@@ -21,6 +22,24 @@ class Home extends Component {
         )
     }
     render() {
+        const isLoading = this.state.isLoading;
+        let render;
+
+        if (isLoading) {
+            render = <div className="random" isLoading={isLoading}>
+                        <img className="img" src={spinner} alt="Random character"></img>
+                    </div>;
+        } else {
+            render = <div className="random">
+                        <img className="img" src={this.state.character.picture} alt="Random character"></img>
+                        <strong>Name: </strong>{this.state.character.name}<br/>
+                        <strong>Age: </strong>{this.state.character.age}<br/>
+                        <strong>Race: </strong>{this.state.character.race}<br/>
+                        <strong>Gender: </strong>{this.state.character.gender}<br/>
+                        <strong>Job: </strong>{this.state.character.job}<br/>
+                    </div>;
+        }
+
         return (
             <div className="container text-center buffered">
                 <span className="font-weight-bolder display-4">Welcome!</span>
@@ -32,15 +51,8 @@ class Home extends Component {
                 <div className="container random">
                     <p>Here's a fourth endpoint fetching a random character each time this page loads.</p>
                     <br/>
-                    <img className="img" src={this.state.character.picture} alt="Random character"></img>
                     <br/>
-                    <div className="random">
-                        <strong>Name: </strong>{this.state.character.name}<br/>
-                        <strong>Age: </strong>{this.state.character.age}<br/>
-                        <strong>Race: </strong>{this.state.character.race}<br/>
-                        <strong>Gender: </strong>{this.state.character.gender}<br/>
-                        <strong>Job: </strong>{this.state.character.job}<br/>
-                    </div>
+                    {render}
                 </div>
             </div>
         );

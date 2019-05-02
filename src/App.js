@@ -4,7 +4,7 @@ import Home from './Home';
 import Games from './Games';
 import Characters from './Characters';
 import Monsters from './Monsters';
-import logo from './moogle-logo.png';
+import logo from './icon-moogle.png';
 import './App.css';
 
 class App extends Component {
