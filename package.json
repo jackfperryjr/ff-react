@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jackfperryjr.github.io/ff-react/",
+  "homepage": "https://jackfperryjr.github.io/final-fantasy-react/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
