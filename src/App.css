@@ -51,6 +51,13 @@
   width: auto;
 }
 
+.mobile {
+  display: none;
+}
+.desktop {
+  display: block;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -63,5 +70,13 @@
 @media screen and (max-width: 767px) {
   .random {
     width: 90%;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
   }
 }

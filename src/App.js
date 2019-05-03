@@ -6,8 +6,15 @@ import Characters from './Characters';
 import Monsters from './Monsters';
 import logo from './icon-moogle.png';
 import './App.css';
+import $ from "jquery";
 
 class App extends Component {
+  closeNavDropdown() {
+      var nav = $(".navbar-collapse"); 
+      nav.on("click", "a:not([data-toggle])", null, function () {
+          nav.collapse('hide');
+      });
+  }
   render() {
     return (
       <Router basename="/final-fantasy-react">
@@ -16,7 +23,7 @@ class App extends Component {
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div id="navbar" className="navbar-collapse collapse" aria-expanded="true">
+          <div id="navbar" className="navbar-collapse collapse" aria-expanded="true" onClick={this.closeNavDropdown}>
             <ul className="nav navbar-nav">
               <li><Link to="/games" className="nav-item nav-link">Games</Link></li>
               <li><Link to="/characters" className="nav-item nav-link">Characters</Link></li>

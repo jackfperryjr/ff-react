@@ -34,7 +34,7 @@ class Characters extends Component {
                     </div>;
         } else {
             render = <div className="container contained">
-                        <table className="table table-striped">
+                        <table className="table table-striped desktop">
                             <tr className="font-weight-bolder bg-dark text-white">
                                 <td>Name</td>
                                 <td>Age</td>
@@ -46,6 +46,19 @@ class Characters extends Component {
                                 {this.state.characters.map(c => 
                                 <tr>
                                     <td>{c.name}</td><td>{c.age}</td><td>{c.race}</td><td>{c.gender}</td><td>{c.job}</td>
+                                </tr>
+                                )}
+                            </tbody>
+                        </table>
+                        <table className="table table-striped mobile">
+                            <tr className="font-weight-bolder bg-dark text-white">
+                                <td>Name</td>
+                                <td>Job</td>
+                            </tr>
+                            <tbody>
+                                {this.state.characters.map(c => 
+                                <tr>
+                                    <td>{c.name}</td><td>{c.job}</td>
                                 </tr>
                                 )}
                             </tbody>
