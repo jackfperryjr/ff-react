@@ -10,7 +10,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Router basename="/ff-react">
+      <Router basename="/final-fantasy-react">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
