@@ -33,8 +33,7 @@ class Home extends Component {
             render = <div className="random">
                         <img className="img" src={this.state.character.picture} alt="Random character"></img>
                         <div className="row">
-                            <div className="col-md-3"></div>
-                            <div className="col-md-6">
+                            <div className="offset-md-3 col-md-6">
                                 <table className="centered">
                                     <tbody>
                                         <tr>
@@ -60,7 +59,6 @@ class Home extends Component {
                                     </tbody>
                                 </table>
                             </div>
-                            <div className="col-md-3"></div>
                         </div>
 
                         
