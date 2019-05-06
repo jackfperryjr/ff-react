@@ -32,11 +32,38 @@ class Home extends Component {
         } else {
             render = <div className="random">
                         <img className="img" src={this.state.character.picture} alt="Random character"></img>
-                        <strong>Name: </strong>{this.state.character.name}<br/>
-                        <strong>Age: </strong>{this.state.character.age}<br/>
-                        <strong>Race: </strong>{this.state.character.race}<br/>
-                        <strong>Gender: </strong>{this.state.character.gender}<br/>
-                        <strong>Job: </strong>{this.state.character.job}<br/>
+                        <div className="row">
+                            <div className="col-md-3"></div>
+                            <div className="col-md-6">
+                                <table className="centered">
+                                    <tbody>
+                                        <tr>
+                                            <td className="text-left font-weight-bold">Name: </td>
+                                            <td className="text-right">{this.state.character.name}</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-left font-weight-bold">Age: </td>
+                                            <td className="text-right">{this.state.character.age}</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-left font-weight-bold">Race: </td>
+                                            <td className="text-right">{this.state.character.race}</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-left font-weight-bold">Gender: </td>
+                                            <td className="text-right">{this.state.character.gender}</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="text-left font-weight-bold">Job: </td>
+                                            <td className="text-right">{this.state.character.job}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div className="col-md-3"></div>
+                        </div>
+
+                        
                     </div>;
         }
 

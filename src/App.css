@@ -24,6 +24,10 @@
   z-index: 1000 !important;
 }
 
+.centered {
+  margin: 0 auto !important;
+}
+
 .contained {
   height: 600px !important;
   max-height: 600px !important;
