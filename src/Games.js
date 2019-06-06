@@ -43,7 +43,7 @@ class Games extends Component {
           <tbody>
             {this.state.games.map(g =>
               <tr>
-                <td>{g.title}</td><td>{g.platform}</td><td>{g.releaseDate}</td>
+                <td><img className='img-game' src={g.picture} alt={g.title} /></td><td>{g.platform}</td><td>{g.releaseDate}</td>
               </tr>
             )}
           </tbody>

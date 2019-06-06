@@ -40,12 +40,12 @@ class Characters extends Component {
             <td>Age</td>
             <td>Race</td>
             <td>Gender</td>
-            <td>Job</td>
+            <td>Job/Class</td>
           </tr>
           <tbody>
             {this.state.characters.map(c =>
               <tr>
-                <td>{c.name}</td><td>{c.age}</td><td>{c.race}</td><td>{c.gender}</td><td>{c.job}</td>
+                <td><img className='img-character' src={c.picture} alt={c.name} /> {c.name}</td><td>{c.age}</td><td>{c.race}</td><td>{c.gender}</td><td>{c.job}</td>
               </tr>
             )}
           </tbody>
@@ -53,12 +53,12 @@ class Characters extends Component {
         <table className='table table-striped mobile'>
           <tr className='font-weight-bolder bg-dark text-white'>
             <td>Name</td>
-            <td>Job</td>
+            <td>Job/Class</td>
           </tr>
           <tbody>
             {this.state.characters.map(c =>
               <tr>
-                <td>{c.name}</td><td>{c.job}</td>
+                <td><img className='img-character' src={c.picture} alt={c.name} /> {c.name}</td><td>{c.job}</td>
               </tr>
             )}
           </tbody>

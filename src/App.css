@@ -55,6 +55,27 @@
   width: auto;
 }
 
+.img-character {
+  margin: 0 auto;
+  display: inline-block;
+  height: 40px;
+  width: auto;
+}
+
+.img-game {
+  margin: 0 auto;
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+}
+
+.img-monster {
+  margin: 0 auto;
+  display: inline-block;
+  height: 40px;
+  width: auto;
+}
+
 .mobile {
   display: none;
 }
@@ -82,5 +103,26 @@
 
   .mobile {
     display: block;
+  }
+
+  .img-character {
+    margin: 0 auto;
+    display: inline-block;
+    height: 20px;
+    width: auto;
+  }
+
+  .img-game {
+    margin: 0 auto;
+    display: inline-block;
+    height: 20px;
+    width: 70px;
+  }
+
+  .img-monster {
+    margin: 0 auto;
+    display: inline-block;
+    height: 30px;
+    width: auto;
   }
 }

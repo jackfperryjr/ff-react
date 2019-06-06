@@ -4,7 +4,7 @@ import Home from './Home'
 import Games from './Games'
 import Characters from './Characters'
 import Monsters from './Monsters'
-import logo from './icon-moogle.png'
+import moogle from './icon-moogle.png'
 import './App.css'
 import $ from 'jquery'
 
@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <Router basename='/final-fantasy-react'>
         <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-          <Link to='/'><img src={logo} className='App-logo' alt='logo' /></Link>
+          <Link to='/'><img src={moogle} className='App-logo' alt='Moogle' /></Link>
           <button className='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbar' aria-controls='navbar' aria-expanded='false' aria-label='Toggle navigation'>
             <span className='navbar-toggler-icon' />
           </button>
