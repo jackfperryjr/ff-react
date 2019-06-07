@@ -1,7 +1,7 @@
 # <img src="src/icon-moogle.png" width="20"> final-fantasy-react
 
 This is my simple React.js app.
-I'm fetching data from <a href="https://www.moogleapi.com" target="blank">MoogleApi</a>.
+I'm fetching data from <a href="https://www.moogleapi.com" target="_blank">MoogleApi</a>.
 
 ### There's 4 endpoints:
 
@@ -12,6 +12,6 @@ I'm fetching data from <a href="https://www.moogleapi.com" target="blank">Moogle
 
 ### After cloning:
 
-* `npm install`
-* `npm start`
-* Alternatively, I've published the project <a href="https://jackfperryjr.github.io/final-fantasy-react/" target="blank">here</a>
+* Run `npm install`
+* Run `npm start`
+* Alternatively, I've published the project <a href="https://jackfperryjr.github.io/final-fantasy-react/" target="_blank">here</a>
