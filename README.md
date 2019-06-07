@@ -15,3 +15,8 @@ I'm fetching data from <a href="https://www.moogleapi.com" target="_blank">Moogl
 * Run `npm install`
 * Run `npm start`
 * Alternatively, I've published the project <a href="https://jackfperryjr.github.io/final-fantasy-react/" target="_blank">here</a>
+
+### Fun:
+
+* I've tried to replicated this web version of the app with React-Native to run on iOS.
+* That project can be found <a href="https://github.com/jackfperryjr/final-fantasy-react-native" target="_blank">here</a>
