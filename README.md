@@ -18,5 +18,5 @@ I'm fetching data from <a href="https://www.moogleapi.com" target="_blank">Moogl
 
 ### Fun:
 
-* I've tried to replicated this web version of the app with React-Native to run on iOS.
+* I've tried to replicate this web version of the app with React-Native to run on iOS.
 * That project can be found <a href="https://github.com/jackfperryjr/final-fantasy-react-native" target="_blank">here</a>
