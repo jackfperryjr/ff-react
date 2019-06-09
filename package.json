@@ -35,6 +35,7 @@
     ]
   },
   "devDependencies": {
+    "querystringify": "^2.1.1",
     "standard": "^12.0.1"
   }
 }
