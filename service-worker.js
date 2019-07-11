@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/final-fantasy-react/precache-manifest.34cb43c8bdffe1ed664dd5f775e5b91e.js"
+  "/final-fantasy-react/precache-manifest.e3f6a15d87a11e53ca79db3a9ed2a1e8.js"
 );
 
 self.addEventListener('message', (event) => {
