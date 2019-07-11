@@ -44,7 +44,7 @@ class Monsters extends Component {
           <tbody>
             {this.state.monsters.map(m =>
               <tr>
-                <td><img className='img-monster' src={moogle} alt={m.name} />{m.name}</td><td>{m.strength}</td><td>{m.weakness}</td>
+                <td><img className='img-monster' src={m.picture} alt={m.name} />{m.name}</td><td>{m.strength}</td><td>{m.weakness}</td>
               </tr>
             )}
           </tbody>
