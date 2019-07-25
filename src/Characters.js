@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import spinner from './icon-spinner.gif'
 
+// This component brings in all the characters.
 class Characters extends Component {
   constructor (props) {
     super(props)

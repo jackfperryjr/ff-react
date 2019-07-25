@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import spinner from './icon-spinner.gif'
-import moogle from './icon-moogle.png'
 
+// This component brings in all the monsters.
 class Monsters extends Component {
   constructor (props) {
     super(props)
@@ -38,13 +38,13 @@ class Monsters extends Component {
         <table className='table table-condensed table-striped'>
           <tr className='font-weight-bolder bg-dark text-white'>
             <td>Name</td>
-            <td>Strength</td>
-            <td>Weakness</td>
+            <td>Hp</td>
+            <td>Mp</td>
           </tr>
           <tbody>
             {this.state.monsters.map(m =>
               <tr>
-                <td><img className='img-monster' src={m.picture} alt={m.name} />{m.name}</td><td>{m.strength}</td><td>{m.weakness}</td>
+                <td><img className='img-monster' src={m.picture} alt={m.name} />{m.name}</td><td>{m.hitPoints}</td><td>{m.manaPoints}</td>
               </tr>
             )}
           </tbody>

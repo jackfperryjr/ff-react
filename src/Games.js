@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import spinner from './icon-spinner.gif'
 
+// This component brings in all the games.
 class Games extends Component {
   constructor (props) {
     super(props)
